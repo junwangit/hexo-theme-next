@@ -180,8 +180,9 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/junwangit || github
-  E-Mail: mailto:zhujunwang@qq.com || envelope
+  GitHub: https://github.com/junwangit || fa fa-fw fa-github
+  E-Mail: mailto:zhujunwang@qq.com || fa fa-fw fa-envelope
+  掘金: https://juejin.im/user/57fa53a47db2a2005951464b || iconfont juejin
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -209,7 +210,7 @@ links_title: Links
 #links_layout: block
 links_layout: inline
 links:
-  同性交友平台: https://blog.junwangit.com
+  全球最大同性交友平台: https://github.com/
   网易云音乐: https://music.163.com
 
 # Sidebar Avatar
@@ -324,7 +325,8 @@ codeblock:
 wechat_subscriber:
   enabled: true
   qcode: /images/qrcode.jpg
-  description: 欢迎扫描二维码关注公众号【程序猿时光】
+  name: 程序猿时光
+  description: 欢迎扫描二维码关注公众号
 
 # Reward
 # If true, reward would be displayed in every article by default.

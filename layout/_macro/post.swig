@@ -112,6 +112,12 @@
             {% endif %}
           </span>
 
+          {% if post.top %}
+            <i class="fa fa-thumb-tack"></i>
+            <font color="green">置顶</font>
+            <span class="post-meta-divider">|</span>
+        {% endif %}
+
           {% if post.categories and post.categories.length and theme.post_meta.categories %}
             <span class="post-category">
             {% if theme.post_meta.created_at or theme.post_meta.updated_at %}
